@@ -2,8 +2,10 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import FlexLayout from "./FlexLayout";
-import GridLayout from "./GridLayout";
+import FlexLayout from "./pages/FlexLayout";
+import GridLayout from "./pages/GridLayout";
+import GridTemplate from "./pages/GridTemplate";
+import MixLayout from "./pages/MixLayout";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +14,8 @@ function App() {
     <>
       <FlexLayout />
       <GridLayout />
+      <MixLayout />
+      {/* <GridTemplate /> */}
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import "./style/Box.css";
-import imgTest from "./assets/react.svg";
-import Card from "./component/Card";
+import "../style/Box.css";
+import imgTest from "../assets/react.svg";
+import Card from "../component/Card";
 function GridLayout() {
   return (
     <div className="bg-black h-auto text-white">
@@ -33,7 +33,7 @@ function GridLayout() {
 
       <h1>Grid wraping example 1</h1>
       <div className="my-5">
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(0,300px))] gap-5 justify-center justify-items-center">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(0,300px))]  gap-5 justify-center justify-items-center">
           <Card />
           <Card />
           <Card />

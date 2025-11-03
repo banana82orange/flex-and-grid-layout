@@ -1,5 +1,6 @@
 import React from "react";
-import "./style/Box.css";
+import "../style/Box.css";
+import Card_v2 from "../component/Card_v2";
 
 function FlexLayout() {
   return (
@@ -84,7 +85,6 @@ function FlexLayout() {
             <box className="py-[50px]">unit1</box>
           </div>
         </div>
-
         {/*  */}
         <div>
           <h1>items-stretch</h1>
@@ -94,12 +94,35 @@ function FlexLayout() {
             <box className="py-[50px]">unit1</box>
           </div>
         </div>
+        {/*  */}
         <div>
           <h1>items-baseline</h1>
           <div className="flex flex-row justify-center items-baseline  h-[300px] bg-white">
             <box className="py-[30px]">unit1</box>
             <box className="py-[40px]">unit1</box>
             <box className="py-[50px]">unit1</box>
+          </div>
+        </div>
+        {/*  */}
+        <h1>flex wrap version</h1>
+        <div className="flex flex-wrap mx-[5vw] gap-x-0 gap-y-2 justify-start">
+          <div className="w-full min-w-[250px]">
+            <Card_v2 />
+          </div>
+          <div className="w-full sm:w-1/5 min-w-[250px]">
+            <Card_v2 />
+          </div>
+          <div className="w-full sm:w-1/5 min-w-[250px]">
+            <Card_v2 />
+          </div>
+          <div className="w-full sm:w-1/5 min-w-[250px]">
+            <Card_v2 />
+          </div>
+          <div className="w-full sm:w-1/5 min-w-[250px]">
+            <Card_v2 />
+          </div>
+          <div className="w-full sm:w-1/5 min-w-[250px]">
+            <Card_v2 />
           </div>
         </div>
       </div>
