@@ -36,25 +36,25 @@ You need Node.js and npm (or yarn/pnpm) installed on your machine.
 Steps
 
 Clone the Repository:
-
+ ```
 git clone [https://github.com/banana82orange/flex-and-grid-layout.git](https://github.com/banana82orange/flex-and-grid-layout.git)
 cd flex-and-grid-layout
-
+ ```
 Install Dependencies:
 Using npm:
-
+ ```
 npm install
-
+ ```
 or using yarn:
-
+ ```
 yarn install
-
+ ```
 Start the Development Server:
-
+ ```
 npm run dev
-
+ ```
 # or
-
+ ```
 yarn dev
-
+ ```
 The application should now be running on http://localhost:5173 (or the port specified in your setup).
