@@ -1,0 +1,9 @@
+@reference "tailwindcss";
+@layer components {
+  box {
+    @apply bg-gray-500 p-10 text-black;
+  }
+  h1 {
+    @apply text-[2rem];
+  }
+}
