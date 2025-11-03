@@ -37,7 +37,7 @@ Steps
 
 Clone the Repository:
  ```
-git clone [https://github.com/banana82orange/flex-and-grid-layout.git](https://github.com/banana82orange/flex-and-grid-layout.git)
+git clone https://github.com/banana82orange/flex-and-grid-layout.git
 cd flex-and-grid-layout
  ```
 Install Dependencies:
