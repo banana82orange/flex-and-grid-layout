@@ -73,5 +73,5 @@ yarn dev
 
 Your application will run at:
 
-👉 **http://localhost:5173**\
+👉 **http://localhost:5173**
 (or another port configured by your development environment)
