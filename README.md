@@ -1,60 +1,77 @@
-🚀 Flex and Grid Layout Examples
+# 🚀 Flex and Grid Layout Examples
 
-A modern, fast, and fully responsive web application built with React and styled efficiently using Tailwind CSS. The primary focus of this repository is to provide clear, practical examples of complex CSS Grid and Flexbox implementations.
-🛠 Technologies Used
+A modern, fast, and fully responsive web application built with
+**React** and styled using **Tailwind CSS**.\
+This repository focuses on **clear, practical examples** of complex
+**CSS Grid** and **Flexbox** layouts.
 
-This project is built using the following core technologies:
+## 🛠 Technologies Used
 
-Technology
+---
 
-Purpose
+Technology Purpose
 
-React
+---
 
-Front-end JavaScript library for building user interfaces.
+**React** Front-end library for building user interfaces.
 
-Tailwind CSS
+**Tailwind Utility-first CSS framework for rapid UI development.
+CSS**
 
-Utility-first CSS framework for rapid and custom UI development.
+**JavaScript Core programming language.
+(ES6+)**
 
-JavaScript (ES6+)
+**\[Other (Optional) e.g., React Router for navigation, etc.
+Tool\]**
 
-Core programming language.
+---
 
-[Other Tool]
-
-(e.g., React Router for navigation)
-
-📦 Installation and Setup
+## 📦 Installation and Setup
 
 Follow these steps to get your development environment running.
 
-Prerequisites
+### ✅ Prerequisites
 
-You need Node.js and npm (or yarn/pnpm) installed on your machine.
+Make sure you have **Node.js** and **npm / yarn / pnpm** installed.
 
-Steps
+### ✅ Steps
 
-Clone the Repository:
- ```
+#### 1. Clone the Repository
+
+```bash
 git clone https://github.com/banana82orange/flex-and-grid-layout.git
 cd flex-and-grid-layout
- ```
-Install Dependencies:
+```
+
+#### 2. Install Dependencies
+
 Using npm:
- ```
+
+```bash
 npm install
- ```
-or using yarn:
- ```
+```
+
+Using yarn:
+
+```bash
 yarn install
- ```
-Start the Development Server:
- ```
+```
+
+#### 3. Start the Development Server
+
+Using npm:
+
+```bash
 npm run dev
- ```
-# or
- ```
+```
+
+Using yarn:
+
+```bash
 yarn dev
- ```
-The application should now be running on http://localhost:5173 (or the port specified in your setup).
+```
+
+Your application will run at:
+
+👉 **http://localhost:5173**\
+(or another port configured by your development environment)
