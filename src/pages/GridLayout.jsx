@@ -21,7 +21,7 @@ function GridLayout() {
           unit5
         </box>
       </div>
-      <h1>text over image</h1>
+      <h1>Text over image use grid layout</h1>
       <div className="grid items-center justify-center">
         <div className="col-start-1 row-start-1">
           <img src={imgTest} className="h-[250px]"></img>

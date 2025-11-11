@@ -5,6 +5,7 @@ import Card_v2 from "../component/Card_v2";
 function FlexLayout() {
   return (
     <div>
+      <h1 className="bg-black text-white">Flex Layout: Aligning Items</h1>
       <div className="mx-auto flex flex-col w-full h-auto bg-black text-white gap-y-10">
         {/*  */}
         <div>

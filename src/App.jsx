@@ -12,8 +12,8 @@ function App() {
 
   return (
     <>
-      <FlexLayout />
       <GridLayout />
+      <FlexLayout />
       <MixLayout />
       {/* <GridTemplate /> */}
     </>

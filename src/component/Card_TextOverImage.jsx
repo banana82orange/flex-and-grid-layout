@@ -3,9 +3,10 @@ import img from "../assets/react.svg";
 function Card_TextOverImage() {
   return (
     <div className="grid  items-center justify-center text-center bg-gray-400 h-full">
-      <div className="col-start-1 row-start-1 flex justify-center h-full">
-        <img src={img} className="object-cover" />
-      </div>
+      <img
+        src={img}
+        className="block col-start-1 row-start-1 h-full  object-contain"
+      />
       <div className="col-start-1 row-start-1">
         <div>name</div>
         <div>job</div>
